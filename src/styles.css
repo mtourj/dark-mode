@@ -183,6 +183,7 @@ img {
   height: 20px;
   position: relative;
   width: 40px;
+  cursor: pointer;
 }
 
 .toggle {
@@ -225,4 +226,16 @@ img {
 
 .coin__logo {
   width: 50px;
+}
+
+body {
+  background-color: white;
+  color: black;
+
+  transition: background-color 0.16s, color 0.16s;
+}
+
+.dark-mode {
+  background-color: rgb(31, 31, 31);
+  color: white;
 }
